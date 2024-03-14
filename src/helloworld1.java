@@ -1,6 +1,6 @@
-    public class helloworld {
+public class helloworld1{
     public static void main(String[] args){
         System.out.println("Hello \t World");
-        System.out.println("Hello \nWorld");
+        System.out.println("Hello \n World");
     }
 }
