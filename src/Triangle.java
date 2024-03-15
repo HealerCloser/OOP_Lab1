@@ -24,4 +24,3 @@ public class Triangle {
             System.exit(0);
         }
     }
-//abc
