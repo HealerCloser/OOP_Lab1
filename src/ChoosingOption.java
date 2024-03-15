@@ -1,2 +1,14 @@
-package PACKAGE_NAME;public class ChoosingOption {
+import javax.swing.*;
+
+public class ChoosingOption {
+    public static void main(String[] args){
+        int option = JOptionPane.showConfirmDialog(null, "Do you wnat to change to the first class ticket?");
+        JOptionPane.showMessageDialog(null, "You have chosen: " + (option==JOptionPane.YES_OPTION?"Yes":"No"));
+        System.exit(0);
+    }
 }
+
+
+
+
+
